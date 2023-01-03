@@ -1,0 +1,232 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&family=Roboto&display=swap');
+</style>
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #f7f6f2;
+}
+
+:root {
+    --bg-color: #fff;
+    --text-color: #e52b16;
+    --second-color: #e76355;
+    --main-color: #f7450f;
+    --big-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
+
+.body {
+    background: #fff;
+    background-color: #f18276;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 18%;
+    transition: ease .40s;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f13a3a;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: large;
+    font-weight: 500;
+    padding: 10px 0px;
+    border-radius: 4px;
+    transition: ease .40s;
+    position: fixed;
+}
+
+.header {
+    justify-content: flex-end;
+
+}
+.navbar a {
+    background-color: rgb(255, 247, 247);
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.6em;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 0px;
+    border-radius: 4px;
+    transition: ease .40s;
+}
+
+.navbar a:hover {
+    background: var(--bg-color);
+    color: #f7220a;
+    box-shadow: 5px 10px 30px rgba(11, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: ease 1.0s;
+    transform: scale(1.1);
+}
+
+section {
+    padding: 40px 25%;
+}
+
+.acueil {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../finalCP_html/sourse/food-3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    position: static;
+}
+
+#home {
+    align-items: flex-start;
+}
+
+.home-text h1 {
+    font-size: 58px;
+    line-height: 1.2;
+    color: #fd3924;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sevillana', cursive;
+}
+.home-text p{
+    color: #030303;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.home-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 30px;
+    background: #f18276;
+    color: #632424;
+    color: var(--bg-color);
+    border-radius: 4px;
+    transition: ease .40s;
+    list-style-type: none;
+}
+.home-btn:hover{
+    background: #e76355;
+    transform: scale(1.1);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #e52b16;
+    font-size: 2.9em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%); 
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;  
+    transition: ease 0.7s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon1 {
+    color: #c45c20;
+    font-size: 8em;
+    text-align: center;
+}
+.info h2{
+    color: #f95644;
+    font-size: 2.0em;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.icon2 {
+    color: #ff7ebc;
+    font-size: 8em;
+    text-align: center;
+}
+
+.icon3 {
+    color: #85096a;
+    font-size: 8em;
+    text-align: center;
+}
+.icon4 {
+    color: #a4fbf1;
+    font-size: 8em;
+    text-align: center;
+}
+.icon5 {
+    color: #b0a2ff;
+    font-size: 8em;
+    text-align: center;
+}
+.icon6 {
+    color: #d4e88c;
+    font-size: 8em;
+    text-align: center;
+}
+.card-contact .info h3 {
+  color: #242123;
+  font-size: 1.8em;  
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: #242123;
+    color: #e76a5c;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between ;
+}
+.footer a{
+    font-size: 2.2em;
+    color: #f6f5fe;
+}
+.footer-title span{
+    color: #fff;
+}
+
+
+
+
+
